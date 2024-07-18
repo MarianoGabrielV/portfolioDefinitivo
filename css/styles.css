@@ -1,0 +1,138 @@
+/* Estilos generales */
+body {
+    padding-top: 56px; /* Ajuste para la barra de navegación fija */
+    background-size: cover;
+    background-position: center;
+    color: #167c27;
+  }
+
+  /* Estilos específicos para la sección de Inicio */
+  #inicio {
+    background-image: url('../img/vecteezy_abstract-boxes-background-modern-technology-with-square_8171873.jpg');
+    min-height: 100vh; /* Ocupa todo el viewport */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  
+  }
+
+  #nav-fondo{
+    background-color: #000000;
+  }
+  
+  /* Ajustes para los íconos de redes sociales en la barra de navegación */
+  .navbar-nav .nav-link {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+  }
+  
+  .navbar-nav .nav-link i {
+    font-size: 1.5rem;
+  }
+  
+  /* Otros estilos según necesites para las secciones restantes */
+  /* Estilos para las cards en la sección de Formación Académica */
+.card-hover {
+    transition: transform 0.3s ease;
+  }
+  
+  .card-hover:hover {
+    transform: translateY(-5px); /* Mover la card hacia arriba al pasar el cursor */
+  }
+  
+  .card-img-top {
+    height: 500px; /* Altura fija para las imágenes */
+    object-fit: cover; /* Escalar y recortar la imagen para que encaje en el tamaño especificado */
+  }
+  
+  .quattrocento-regular {
+    font-family: "Quattrocento", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .quattrocento-bold {
+    font-family: "Quattrocento", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  .russo-one-regular {
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .anton-regular {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .anton-sc-regular {
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+/*fuene-inicio*/
+  .bevan-regular {
+    font-family: "Bevan", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .bevan-regular-italic {
+    font-family: "Bevan", serif;
+    font-weight: 550;
+    font-style: italic;
+  }
+  
+
+  #formacion {
+    background-image: url('../img/vecteezy_abstract-boxes-background-modern-technology-with-square_8171873.jpg');
+  }
+  #acerca {
+    background-color: #000000; /* Verde claro */
+  }
+
+  #proyectos {
+    background-color: #000000; ;
+  }
+
+  #letra{
+    font-size: 20px;
+  }
+        
+ .icon-container .info {
+  display: none;
+  transition: opacity 0.3s ease;
+}
+
+.icon-container:hover .info {
+  display: block;
+  opacity: 1;
+}
+
+.icon-hover:hover {
+  transform: scale(1.1);
+}
+
+.icon-hover {
+  transition: transform 0.3s ease;
+}
+.icon-color-python { color: #3776AB; }       /* Python Blue */
+.icon-color-sql { color: #f29111; }          /* SQL Orange */
+.icon-color-r { color: #276DC3; }            /* R Blue */
+.icon-color-html { color: #E34F26; }         /* HTML Orange */
+.icon-color-css { color: #1572B6; }          /* CSS Blue */
+.icon-color-js { color: #F7DF1E; }           /* JavaScript Yellow */
+.icon-color-bootstrap { color: #7952B3; }    /* Bootstrap Purple */
+
+.icon-hover {
+  transition: transform 0.3s ease-in-out;
+}
+
+.icon-hover:hover {
+  transform: scale(1.2) rotate(10deg);
+}
+
+
+
